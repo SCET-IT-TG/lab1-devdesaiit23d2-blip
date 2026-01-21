@@ -45,17 +45,24 @@ db.students.insertOne({
   _id: ObjectId(),
   name: "Tirth",
   department: "ME",
-  semester: 3
+  semester: 3,
+  mobile: "9123456789"
 });
 
 db.students.insertOne({
   _id: ObjectId("64abc123456789abcdef0001"),
-  name: "Ravi"
+  name: "Ravi",
+  department: "EE",
+  semester: 2,
+  mobile: "9409640924"
 });
 
 db.students.insertOne({
   _id: ObjectId("64abc123456789abcdef0001"),
-  name: "Preetal"
+  name: "Preetal",
+  department: "EE",
+  semester: 2,
+  mobile: "9000000002"
 });
 
 db.subjects.insert({
@@ -72,5 +79,3 @@ db.subjects.insert({
   course_name: "MBA",
   subject_list: ["Finance", "HR", "Marketing"]
 });
-
-
