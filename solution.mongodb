@@ -3,13 +3,15 @@ db = db.getSiblingDB("examDB");
 db.students.insertOne({
   name: "Dev",
   department: "IT",
-  semester: 4
+  semester: 4,
+  mobile: "9876543234"
 });
 
 db.students.insertOne({
   name: "Isabel",
   department: "CE",
-  semester: 6
+  semester: 6,
+  mobile: "9876543245"
 });
 
 db.students.insertOne({
@@ -70,4 +72,5 @@ db.subjects.insert({
   course_name: "MBA",
   subject_list: ["Finance", "HR", "Marketing"]
 });
+
 
