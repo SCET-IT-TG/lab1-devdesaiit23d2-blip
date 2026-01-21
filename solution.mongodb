@@ -19,6 +19,13 @@ db.students.insertOne({
   mobile: "9876543210"
 });
 
+db.students.insertOne({
+  name: "Rang",
+  department: "IT",
+  semester: 5,
+  mobile: "9476543210"
+});
+
 db.subjects.insertOne({
   course_name: "B.Tech IT",
   subject_list: ["Java", "DBMS", "Python", "Web Technology"]
@@ -63,3 +70,4 @@ db.subjects.insert({
   course_name: "MBA",
   subject_list: ["Finance", "HR", "Marketing"]
 });
+
